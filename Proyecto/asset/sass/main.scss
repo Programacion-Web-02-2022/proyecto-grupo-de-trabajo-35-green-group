@@ -1,0 +1,15 @@
+@import"./home/header";
+@import "./home/boddy";
+@import"./home/menu";
+@import"./home/footer";
+@import"./Post/post";
+@import "colores";
+
+.Seccion_bottones{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}

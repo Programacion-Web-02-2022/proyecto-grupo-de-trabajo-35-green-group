@@ -1,0 +1,44 @@
+@import"../colores";
+
+#post{
+    display: flex;
+    flex-direction: row;
+    background-color: $textcolor2;
+}
+
+#Post_part1 h1{
+    display: flex;
+    justify-content: center;
+}
+
+#Post_part1 p{
+    text-align: justify;
+    margin: 15px;
+}
+
+#Post_part2 image{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+#Post_back{
+    width: 50px;
+    display: flex;
+    align-content: space-around;
+}
+
+#Post_back a{
+    text-decoration: none;
+}
+
+#back{
+    display: flex;
+    align-content: space-between;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+}

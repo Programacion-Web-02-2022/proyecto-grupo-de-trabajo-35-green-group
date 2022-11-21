@@ -1,0 +1,87 @@
+@import"../colores";
+
+#section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    background-color: $primarycolor2;
+    font-size: 12px;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 10px;
+    height: 15px;
+    width: 100%;
+    background-color: $primarycolor1;
+    font-size: 10px;
+}
+
+#logo_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background-color: $primarycolor2;
+}
+
+
+.webinfo{
+    background-color: $primarycolor2;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+#imgfooter{
+    background-color: $primarycolor2;
+}
+#logo{
+    background-color: $primarycolor2;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background-color: $primarycolor2;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background-color: $primarycolor2;    
+}
+
+#social a{
+    text-decoration: none;
+    background-color: $primarycolor2;
+}
+
+#social button{
+    cursor: pointer;
+    border: none;
+    background-color: $primarycolor2;
+}
+#social button img{
+    background-color: $primarycolor2;
+}
+
+#social button:hover{
+    background-color: $secundarycolorfour4;
+}
+
+@media screen and (max-width: 720px) {
+    
+}

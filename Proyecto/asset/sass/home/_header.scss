@@ -1,0 +1,92 @@
+@import"../colores";
+
+*{
+    background-color: $textcolor2;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#nav_bar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: auto;
+}
+
+#home{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+#look_bar{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    color: $secundarycolorone1;
+
+}
+
+#buscador{
+    height: 40px;
+    width: 70%;
+    background-color: $textcolor2;
+    align-content: flex-start;
+    border-top: 1px solid $primarycolor4;
+    border-right: 1px solid $primarycolor4;
+    border-bottom: 1px solid $primarycolor4;
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color: $secundarycolorone1;
+}
+
+#buscador_icon{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+    border-top: 1px solid $primarycolor4;
+    border-left: 1px solid $primarycolor4;
+    border-bottom: 1px solid $primarycolor4;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#profile_photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    -webkit-border-radius: 100rem;
+    -moz-border-radius: 100rem;
+    -ms-border-radius: 100rem;
+    -o-border-radius: 100rem;
+    cursor: pointer;
+
+}
+
+#user_photos{
+    border: none;
+}
+
+
+@media screen and (max-width: 720px) {
+  }
