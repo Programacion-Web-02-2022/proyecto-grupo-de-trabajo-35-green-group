@@ -1,4 +1,4 @@
-
+//Este aun no esta implementado
 export const Register = (props) => {
 
 
