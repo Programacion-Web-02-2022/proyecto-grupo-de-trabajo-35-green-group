@@ -9,7 +9,7 @@ function App() {
   const toggleForm = (formName) => {
     setCurrentForm(formName);
   }
-
+ {/*Esta funcion es para hacer funcionar el login */}
   return (
     <div className="App">
       {
