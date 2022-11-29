@@ -1,0 +1,75 @@
+:root{
+    --primary-color: #1CE7CE;
+    --primary-light-color: #69F0AE;
+    --dark-color: #000000;
+    --secondary-color: #5DC592;
+    --secundary-color-two: #1CE7CE;
+    --secundary-color-three: #1CDBE7;
+    --color-gradient: hsl(184, 32%, 70%);
+    --accent-color: #466567;
+    --light-color: #FFFFFF;
+    --drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-color);
+    background-image: linear-gradient(79deg, #39db6f, #6fb5c6 48%, #f8f7f6);
+  }
+
+.auth-form-container{
+    background-color: var(--light-color);
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+
+.auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      margin: 0.5rem;
+    }
+  }
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #b9ffea;
+  }
+  
+  button {
+    border: none;
+    background-image: linear-gradient(79deg, #47db9d, #00e7e754 48%);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #08050e;
+  }
+  
+  .link-btn {
+    background: none;
+    color: var(--dark-color);
+    text-decoration: none;
+  }
